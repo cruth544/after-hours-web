@@ -4,9 +4,11 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
+    "dev": "webpack-dev-server --content-base src",
+    "live": "webpack-dev-server --content-base src --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=development ./node_modules/.bin/webpack-dev-server",
-    "prod": "NODE_ENV=production webpack --watch"
+    "start": "NODE_ENV=development webpack",
+    "prod": "NODE_ENV=production webpack"
   },
   "author": "",
   "license": "ISC",
@@ -22,9 +24,9 @@
     "babel-preset-stage-0": "^6.5.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   },
   "devDependencies": {
-    "webpack-dev-server": "^1.14.1"
   }
 }
