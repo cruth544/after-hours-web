@@ -1,8 +1,8 @@
 # after-hours-web
 
-For dev mode:
-```npm run dev```
-For live reload development:
-```npm run live```
-For prod mode: 
-```npm run prod```
+For dev mode:<br/>
+```npm run dev```<br/>
+For live reload development:<br/>
+```npm run live```<br/>
+For prod mode: <br/>
+```npm run prod```<br/>
