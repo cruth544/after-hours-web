@@ -1,8 +1,7 @@
-require('./module2.js')
-require('./module1.js')
-
 import React from 'react'
 import ReactDOM from 'react-dom'
+import RestaurantList from './components/restaurant/RestaurantList/RestaurantList.js'
+import HomeController from './components/home/HomeController/HomeController.js'
 
 class App extends React.Component {
   constructor() {
@@ -12,7 +11,9 @@ class App extends React.Component {
 
   render() {
     return (
-        <h1>Hello {this.property}</h1>
+        <div className="app-wrapper">
+          <HomeController/>
+        </div>
       )
 
   }
